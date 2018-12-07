@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
 import Posts from './components/Posts';
+import PostForm from './components/PostForm';
 
 class App extends Component {
   render() {
@@ -8,6 +9,8 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
 
+          <PostForm />
+          <hr />
           <Posts />
         </header>
       </div>
